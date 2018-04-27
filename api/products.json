@@ -1,0 +1,67 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name": "Banzai",
+            "price": 120,
+            "stock": 0,
+            "image": "https://truimg.toysrus.com/product/images/E6A3E924.zoom.jpg?fit=inside|250:230"
+        },
+        {
+            "id": 2,
+            "name": "Infinity",
+            "price": 60,
+            "stock": 10,
+            "image": "https://truimg.toysrus.com/product/images/38BB4685.zoom.jpg?fit=inside|250:230"
+        },
+        {
+            "id": 3,
+            "name": "Funko",
+            "price": 48,
+            "stock": 4,
+            "image": "https://truimg.toysrus.com/product/images/FDFBBA44.zoom.jpg?fit=inside|250:230"
+        },
+        {
+            "id": 4,
+            "name": "Beetroot",
+            "price": 32,
+            "stock": 55,
+            "image": "https://truimg.toysrus.com/product/images/61F2A28D.zoom.jpg?fit=inside|250:230"
+        },
+        {
+            "id": 5,
+            "name": "Carrot",
+            "price": 56,
+            "stock": 5,
+            "image": "https://truimg.toysrus.com/product/images/DD107E89.zoom.jpg?fit=inside|250:230"
+        },
+        {
+            "id": 6,
+            "name": "Infinity",
+            "price": 60,
+            "stock": 10,
+            "image": "https://truimg.toysrus.com/product/images/38BB4685.zoom.jpg?fit=inside|250:230"
+        },
+        {
+            "id": 7,
+            "name": "Funko",
+            "price": 48,
+            "stock": 4,
+            "image": "https://truimg.toysrus.com/product/images/FDFBBA44.zoom.jpg?fit=inside|250:230"
+        },
+        {
+            "id": 8,
+            "name": "Beetroot",
+            "price": 32,
+            "stock": 55,
+            "image": "https://truimg.toysrus.com/product/images/61F2A28D.zoom.jpg?fit=inside|250:230"
+        },
+        {
+            "id": 9,
+            "name": "Carrot",
+            "price": 56,
+            "stock": 5,
+            "image": "https://truimg.toysrus.com/product/images/DD107E89.zoom.jpg?fit=inside|250:230"
+        }
+    ]
+}
