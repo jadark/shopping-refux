@@ -10,8 +10,16 @@
 //     }    
 // };
 
+// Local
+// import apiJson from '../api/products';
+// const lala = apiJson;
+
+// Prod
+const urlApi = 'http://localhost:4000/products';
+
+
+
 const searchFilter = (value) => {
-        
     const result = value.toLowerCase();
     // const filtered = _.filter(state.product, (o) => _.toLower(o.name).includes(_.toLower(result)))
     return {
@@ -20,17 +28,17 @@ const searchFilter = (value) => {
     }
 };
 
-const loadProducts = () => {
+const loadProducts = () => {    
     return dispatch => {
-        return fetch('http://localhost:4000/products')
+        return fetch(urlApi)
         .then(response => response.json())
-        .then(resposeData => {
+            .then(resposeData => {           
             setTimeout(() => {
                 dispatch({
                     type: "REPLACE_PRODUCTS",
                     products: resposeData
                 })
-                console.log(resposeData);
+                console.log(resposeData, "GEt API DATA");
             }, 1000);
         });
 
